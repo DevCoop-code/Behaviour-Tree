@@ -24,20 +24,20 @@ public class EnemyAI : MonoBehaviour
         
     }
 
-    INode SettingBT()
-    {
-        return new SelectorNode(new List<INode>()
-        {
-            new SequenceNode(new List<INode>()
-            {
-                new ActionNode()
-            })
-        })
-    }
+    //INode SettingBT()
+    //{
+    //    return new SelectorNode(new List<INode>()
+    //    {
+    //        new SequenceNode(new List<INode>()
+    //        {
+    //            new ActionNode()
+    //        })
+    //    });
+    //}
 
-    // Attack Node
-    INode.ENodeState CheckMeleeAttacking()
-    {
+    //// Attack Node
+    //INode.ENodeState CheckMeleeAttacking()
+    //{
         
-    }
+    //}
 }
